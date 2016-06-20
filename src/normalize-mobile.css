@@ -1,0 +1,18 @@
+/*使用无衬线字体 ref http://alloyteam.github.io/Spirit/modules/Standard/index.html*/
+body {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+/*移除手机浏览器按钮点击出现的高亮框*/
+a{
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*避免图中的长按弹出菜单与选中文本的行为 ref:http://alloyteam.github.io/Spirit/modules/Standard/index.html#base_ui*/
+a, img {
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
