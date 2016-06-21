@@ -1,0 +1,30 @@
+{
+  "name": "normalize-mobile",
+  "version": "0.1.0",
+  "description": "normalize for mobile web app ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayin/normalize-mobile.git"
+  },
+  "keywords": [
+    "normalize",
+    "mobile",
+    "web",
+    "app"
+  ],
+  "author": "Jayin Ton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jayin/normalize-mobile/issues"
+  },
+  "homepage": "https://github.com/Jayin/normalize-mobile#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-header": "^1.8.3"
+  }
+}
