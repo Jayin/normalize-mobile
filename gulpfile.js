@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var cssnano = require('gulp-cssnano');
 var header = require('gulp-header');
+var less = require('gulp-less');
 
 var pkg = require('./package.json');
 var banner = ['/**',
@@ -13,6 +14,7 @@ var banner = ['/**',
 
 gulp.task('default', function() {
     return gulp.src('./src/normalize-mobile.css')
+        .pipe(less())
         .pipe(cssnano())
         .pipe(header(banner, { pkg : pkg } ))
         .pipe(gulp.dest('./dist'));
